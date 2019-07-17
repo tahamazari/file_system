@@ -9,8 +9,7 @@ def main():
         print("Press 4 to append to a file")
         print("Press 5 to write to a file")
         print("Press 6 to search a string in the file")
-        print("Press 7 to search a string in the file")
-        print("Press 8 to search a string in the file")
+        print("Press 7 to replace a string in the file")
 
         action = int(input())
 
@@ -27,8 +26,6 @@ def main():
         elif(action == 6):
             search_string()
         elif(action == 7):
-            search_string()
-        elif(action == 8):
             replace_string()
         else:
             exit()

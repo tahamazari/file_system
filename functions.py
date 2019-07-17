@@ -81,3 +81,9 @@ def replace_string():
     fin = open(name, "w")
     fin.write(data)
     fin.close()
+
+def file_exists(file):
+    if not os.path.isfile(file):
+        print("file not found")
+        return False
+    return True
