@@ -2,3 +2,4 @@ taha
 mazari
 tintash
 python
+new laptop
