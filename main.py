@@ -20,9 +20,9 @@ def main():
         elif(action == 3):
             read_file()
         elif(action == 4):
-            append_file()
+            change_file('a')
         elif(action == 5):
-            write_file()
+            change_file('w')
         elif(action == 6):
             search_string()
         elif(action == 7):
